@@ -1,0 +1,20 @@
+{{#result.link}}
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="page-header">Result:</h4>
+        </div>
+    </div>
+    <div class="alert alert-success">
+        Result link: <a class="alert-link" href={{result.link}}> {{result.title}}</a>
+    </div>
+{{/result.link}}
+{{#result.message}}
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="page-header">Error: </h4>
+        </div>
+    </div>
+    <div class="alert alert-danger">
+        {{result.message}}
+    </div>
+{{/result.message}}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "iconv": "latest",
+    "mustache-express": "^1.2.4",
+    "request-promise-native": "^1.0.3",
+    "request": "^2.34"
+  }
+}
